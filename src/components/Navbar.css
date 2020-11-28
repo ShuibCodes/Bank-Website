@@ -8,7 +8,10 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    color: #fff;
+    text-decoration: none;
   }
+
   
   .navbar-container {
     display: flex;
@@ -35,6 +38,9 @@
     display: flex;
     align-items: center;
   }
+  .navbar-logo a{
+    text-decoration: none;
+  }
   
   .navbar-icon {
     margin-right: 0.5rem;
@@ -47,15 +53,21 @@
     list-style: none;
     text-align: center;
     justify-content: end;
+    text-decoration: none;
   }
   
   .nav-item {
     height: 80px;
     border-bottom: 2px solid transparent;
+    text-transform: none;
+    text-decoration: none;
+    
   }
   
   .nav-item:hover {
     border-bottom: 2px solid #f00946;
+    text-transform: none;
+    text-decoration: none;
   }
   
   .nav-links {
@@ -67,12 +79,17 @@
     height: 100%;
   }
   
+ .delete{
+   text-decoration: none;
+ }
+  
   .fa-bars {
     color: #fff;
-  }
+  } 
   
   .menu-icon {
     display: none;
+    text-decoration: none;
   }
   
   @media screen and (max-width: 960px) {

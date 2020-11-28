@@ -44,7 +44,7 @@ const Navbar = () => {
               {click ? <FaTimes /> : <FaBars />}
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-              <li className='nav-item'>
+              <li  className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                   Home
                 </Link>
@@ -62,27 +62,18 @@ const Navbar = () => {
                 <Link
                   to='/products'
                   className='nav-links'
+                  
                   onClick={closeMobileMenu}
                 >
                   Products
                 </Link>
               </li>
-              <li className='nav-btn'>
-                {button ? (
-                  <Link to='/sign-up' className='S btn-link'>
-                    <Button buttonStyle='btn--outline'>SIGN UP</Button>
-                  </Link>
-                ) : (
-                  <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
-                    <Button
-                      buttonStyle='btn--outline'
-                      buttonSize='btn--mobile'
-                      
-                    >
+              <li className='nav-item'>
+              <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
+                    
                       SIGN UP
-                    </Button>
+                    
                   </Link>
-                )}
               </li>
             </ul>
           </div>
