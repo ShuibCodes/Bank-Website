@@ -27,9 +27,7 @@ function Pricing() {
                   <li>2% Cash Back</li>
                   <li>£10,000 Limit</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Choose Plan
-                </Button>
+                <button className="plan1"> Choose Plan </button>
               </div>
             </Link>
             <Link to='/sign-up' className='pricing__container-card'>
@@ -45,9 +43,7 @@ function Pricing() {
                   <li>3.5% Cash Back</li>
                   <li>£100,000 Limit</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='blue'>
-                  Choose Plan
-                </Button>
+                <button className="plan2"> Choose Plan </button>
               </div>
             </Link>
             <Link to='/sign-up' className='pricing__container-card'>
@@ -63,9 +59,7 @@ function Pricing() {
                   <li>5% Cash Back</li>
                   <li>Unlimited Spending</li>
                 </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Choose Plan
-                </Button>
+                <button className="plan3"> Choose Plan </button>
               </div>
             </Link>
           </div>

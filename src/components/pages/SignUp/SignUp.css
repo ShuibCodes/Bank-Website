@@ -1,93 +1,232 @@
-.0
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+
+.signupImg{
+	max-width: 40%;
+   position: relative;
+   top: -30rem;
+   right: -66rem;
+}
+
+p{
+	color: white;
+	font-size: 25px;
+	padding: 4px;
+	padding-left: 0p;
+}	
+
 
 .form{
-    margin-left: 50px;
-    margin-top: 10rem;
-    width: 70%;
-    
-    
-}
-h3{
-    padding: 4px;
-    font-size: 23px
+    font-family: 'Chelsea Market', sans-serif;
+    font-size: 13px;
+	border-radius: 3px;
+	border: 2px solid red;
+	
+
+
 }
 
-.thisImage{
-    max-width: 50%;
-   margin-left: 45rem;
-    padding-right: 0;
-    margin-top: -19rem;
+.form-style-1 {
+	margin:10px auto ;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: relative;
+	margin-top: 5rem;
+	left: -26rem;
+	
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
 }
 
-.Submitbtn{
-    color: purple;
-    padding: 8px 10px;
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 15px;
-    cursor: pointer;
+.form-style-1 .field-long{
+	width: 100%;
 }
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 15px;
-  }
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+	width: 40rem;
+}
+.form-style-1 .field-divided1 {
+	width: 40rem;
+	
+}
 
-  input[type=email] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 15px;
-  }
-.emailBox{
-    width: 70%;
+.lazyway{
+	opacity: 0;
 }
-.form-group{
-    width: 50%;
-    width: 70%;
-    font-size: 25px;
-}
-.form-control{
-    font-size: 19px;
-}
-.img{
-    width: 30%;
-    margin-left: 30rem;
-    
-    margin-top: 10rem;
-  
-    
-}
-@media screen and (max-width: 991px) {
-    input[type=email] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border-radius: 4px;
-      }
-      input[type=text] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border-radius: 4px;
-      }
-      .form-group{
-        width: 100%;
-      
-        font-size: 30px;
-    }
 
-    .thisImage{
-        max-width: 50%;
-       margin-left: 6rem;
-      
-        padding-right: 0;
-        margin-top: 2rem;
-    }
-  }
-  
+.form-style-1 .field-divided2{
+	width: 40rem;
+	
+}
+
+
+
+
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
+
+
+
+input{
+	border-radius: 4px;
+	
+}
+textarea{
+	border-radius: 4px;
+}
+.btn{
+    padding: 7px;
+    max-width: 100%;
+	font-family: 'Open Sans',sans-serif;
+	
+}
+.title{
+	text-align: center;
+	margin-top: 3rem;
+	position: relative;
+	left: -30rem;
+	font-size: 46px;
+	color: white;
+}
+
+label{
+	font-family: 'Chelsea Market', sans-serif;
+	font-size: 20px;
+	color: white;
+
+}
+
+.form-style-1{
+	width: 400px;
+} 
+
+input{
+	font-family: sans-serif;
+}
+
+textarea{
+	font-family: sans-serif;
+}
+
+label{
+	font-size: 30px;
+}
+
+.btn{
+	width: 6rem;
+	height: 3rem;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	font-weight: 700;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 960px){
+	.title{
+		position: relative;
+		left: -2rem;
+		top: -2rem;
+
+	}
+
+
+	.form-style-1 .field-textarea{
+		height: 100px;
+		width: 20rem;
+	}
+	.form-style-1 .field-divided1 {
+		width: 20rem;
+		
+	}
+
+	.form-style-1 .field-divided2 {
+		width: 20rem;
+		
+	}
+
+	.box{
+		margin-left: 26rem;
+		margin-top: -7rem;
+	}
+
+	.email .field-long{
+		width: 20rem;
+	}
+
+	.field-textarea{
+		width: 20rem;
+	}
+
+}

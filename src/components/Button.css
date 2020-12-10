@@ -1,20 +1,17 @@
+
+
 :root {
     --primary: #fff;
   }
-  
-  .btn {
-    padding: 8px 20px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
-  }
-  
+
+ 
   .btn--primary {
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
+    border-radius: 3px;
+  
+    
   }
   
   .btn--outline {
@@ -47,10 +44,12 @@
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
-  
+
+
   .btn--wide {
     padding: 12px 64px;
     font-size: 20px;
+    color: white;
   }
   
   .btn--large:hover,

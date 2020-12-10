@@ -56,7 +56,56 @@
     align-items: center;
     color: #fff;
   }
-  
+  .plan1{
+    padding: 12px 6px;
+    font-size: 20px;
+    color: white;
+    background-color:  #242424;
+    border-radius: 4px;
+    height: 4rem;
+    width: 7rem;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #242424;
+
+  }
+  .plan2{
+    padding: 12px 6px;
+    font-size: 20px;
+    color: white;
+    background-color: #276afb;
+    border-radius: 4px;
+    height: 4rem;
+    width: 7rem;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #242424;
+
+  }
+
+
+  .pricing__container-cardInfo .plan3{
+    padding: 12px 6px;
+    font-size: 200px;
+    color: white;
+    background-color:  #242424;
+    border-radius: 4px;
+    height: 4rem;
+    width: 7rem;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #242424;
+
+  }
+ 
+
+  .plan1:hover,
+  .plan2:hover,
+  .plan3:hover {
+    background-color:  #f00946;
+    transition: all 0.2s ease-out;
+
+  }
   .pricing__container-cardInfo h3 {
     margin-bottom: 5px;
     font-size: 24px;
