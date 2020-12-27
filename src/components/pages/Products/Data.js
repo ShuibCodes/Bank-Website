@@ -3,7 +3,7 @@ export const homeObjTwo = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Top Level Security',
-    headline: 'With DollaBank, We offer 100% secure banking',
+    headline: 'With DollaBank, We offer 100% secure banking!',
     description: 'All your credit card details are encrypted and protected by bank-level security. TrueLayers regulated by the Financial Conduct Authority and acts as a messenger between DollaBank and your other banks.',
     buttonLabel: 'Get Started ',
     imgStart: '',
