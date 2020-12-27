@@ -59,7 +59,7 @@ function Pricing() {
                   <li>5% Cash Back</li>
                   <li>Unlimited Spending</li>
                 </ul>
-                <button className="plan3"> Choose Plan </button>
+                <button className="plan3">  Choose Plan </button>
               </div>
             </Link>
           </div>
