@@ -17,7 +17,7 @@ export const homeObjOne = {
     topLine: 'VIEW OUR PRODUCTS',
     headline: 'Shop through our catalog of products',
     description:
-      'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
+      'We provide worldwide shipping to all countries. If there are any issues at all, just issue a refund and we will process your request',
     buttonLabel: 'Shop Now',
     imgStart: '',
     img: 'images/svg-2.svg',
