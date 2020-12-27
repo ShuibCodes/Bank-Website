@@ -68,10 +68,10 @@ function SignUp() {
                               </p>
                           )}
               </ul>
-
+              
             </form>
-
-                <img  className="signupImg" src='images/svg-2.svg' alt='img'></img>
+            <img  className="signupImg" src='images/svg-2.svg' alt='img'></img>
+              
                 
       </>
     )

@@ -6,10 +6,10 @@
 
 
 .signupImg{
-	max-width: 40%;
-   position: relative;
-   top: -30rem;
-   right: -66rem;
+float: right;
+height: 60vh;
+width: 85vh;
+margin-top: -30rem;
 }
 
 p{
@@ -25,7 +25,8 @@ p{
     font-size: 13px;
 	border-radius: 3px;
 	border: 2px solid red;
-	
+	display: inline-block;
+	width: 100%;
 
 
 }
@@ -154,11 +155,10 @@ textarea{
 .title{
 	text-align: center;
 	margin-top: 3rem;
-	position: relative;
-	left: -30rem;
-	font-size: 46px;
+	font-size: 65px;
 	color: white;
-}
+
+}	
 
 label{
 	font-family: 'Chelsea Market', sans-serif;
@@ -229,4 +229,18 @@ label{
 		width: 20rem;
 	}
 
+	
+
 }
+
+@media screen and (max-width: 970px){
+	.signupImg{
+		display: block;
+		width: 40vh;
+		margin: 0 auto;
+		float: left;
+		margin-top: -9rem;
+	}
+
+}
+
