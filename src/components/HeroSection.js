@@ -1,6 +1,6 @@
 import React from 'react'
 import {Button} from './Button'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-scroll'
 import './HeroSection.css'
 
 function HeroSection({
@@ -15,7 +15,12 @@ function HeroSection({
                             <div className="top-line">{topLine}</div>
                             <h1 className={lightText ? 'heading' : 'heading dark'} >{headline}</h1>
                             <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'} >{description}</p>
-                            <Link to='/sign-up'>
+                            <Link activeClass="active"
+                                to="Footer"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}>
                                 <Button buttonSize='btn--wide' buttonColor='blue' >{buttonLabel}</Button>
                             </Link>
                         </div>

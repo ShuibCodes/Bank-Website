@@ -43,7 +43,7 @@ function SignUp() {
       };
     return (
         <>
-          <Helmet bodyAttributes={{style: 'background-color: #1c2237'}} />
+          <Helmet bodyAttributes={{style: 'background-color: #1c2237'}} id="contact"  />
             <h1 className="title" >Get in Touch</h1>  
             <form action="https://getform.io/f/a5bd7840-377b-4857-934e-b058c13d4aad" className="box" onSubmit={handleOnSubmit}>
               <ul className="form-style-1">
