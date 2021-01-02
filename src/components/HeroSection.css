@@ -1,6 +1,7 @@
 .home__hero-section {
     color: #fff;
     padding: 160px 0;
+    
   }
   
   .home__hero-row {
@@ -87,6 +88,15 @@
     .container {
       padding-right: 30px;
       padding-left: 30px;
+      position: relative;
+
+
+
+    }
+
+    .col{
+      position: relative;
+      top: -6rem;
     }
   }
   
